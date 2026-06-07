@@ -3,7 +3,7 @@
 
     const urlParams = new URLSearchParams(window.location.search);
     const pais = urlParams.get("pais");
-    document.write(pais);
+    //document.write(pais);
     switch (pais) {
     case "mex":
         var url = "https://pt.wikipedia.org/wiki/M%C3%A9xico";
@@ -18,6 +18,6 @@
         var url = "https://pt.wikipedia.org/wiki/Ch%C3%A9quia";
         break;
     }
-    document.write(url);
-    //window.location.href = url;
+    //document.write(url);
+    window.location.href = url;
 </script>
